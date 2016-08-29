@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LLAudioUpload.h"
+#import "LLVedioUpload.h"
 
 //! Project version number for TMilesMediaSDK.
 FOUNDATION_EXPORT double TMilesMediaSDKVersionNumber;

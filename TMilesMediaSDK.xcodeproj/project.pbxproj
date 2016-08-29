@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E97F44F1D73DC86002BD421 /* LLAudioUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E97F44D1D73DC86002BD421 /* LLAudioUpload.h */; };
+		9E97F44F1D73DC86002BD421 /* LLAudioUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E97F44D1D73DC86002BD421 /* LLAudioUpload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E97F4501D73DC86002BD421 /* LLAudioUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E97F44E1D73DC86002BD421 /* LLAudioUpload.m */; };
-		9E97F4531D73DD2E002BD421 /* LLVedioUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E97F4511D73DD2E002BD421 /* LLVedioUpload.h */; };
+		9E97F4531D73DD2E002BD421 /* LLVedioUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E97F4511D73DD2E002BD421 /* LLVedioUpload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E97F4541D73DD2E002BD421 /* LLVedioUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E97F4521D73DD2E002BD421 /* LLVedioUpload.m */; };
 		9ECD32051D73D7B500AE3F71 /* TMilesMediaSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECD32041D73D7B500AE3F71 /* TMilesMediaSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -125,6 +125,7 @@
 				TargetAttributes = {
 					9ECD32001D73D7B500AE3F71 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8K55298386;
 					};
 				};
 			};
@@ -261,6 +262,7 @@
 		9ECD320A1D73D7B500AE3F71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -268,7 +270,7 @@
 				INFOPLIST_FILE = TMilesMediaSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lbslm.cooci.TMilesMediaSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbslm.cooci.tmiles.media;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -277,6 +279,7 @@
 		9ECD320B1D73D7B500AE3F71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -284,7 +287,7 @@
 				INFOPLIST_FILE = TMilesMediaSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lbslm.cooci.TMilesMediaSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbslm.cooci.tmiles.media;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
